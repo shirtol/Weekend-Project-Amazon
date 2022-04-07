@@ -130,6 +130,19 @@ label#search-fill {
     width: 38px;
     height: 26px;
     filter: invert(1);
+    position: relative;
+}
+
+.cart-load {
+    position: absolute;
+    color: #f08804;
+    font-size: 1.6rem;
+    left: 1.8rem;
+    right: auto;
+    top: -0.6rem;
+    width: 1.9rem;
+    font-weight: 700;
+    filter: invert(1);
 }
 
 /* Bottom navbar */
@@ -184,4 +197,24 @@ label#search-fill {
     text-decoration: none;
     color: rgb(51, 51, 51);
     line-height: 3.3rem;
+}
+
+/* Breadcrumbs */
+.breadcrumbs-container {
+    color: #565959;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    padding: 0 1.6rem;
+    margin-top: 0.8rem;
+}
+
+.breadcrumbs-list li {
+    list-style: none;
+    margin-right: 0.4235rem;
+}
+
+.breadcrumbs-item a {
+    text-decoration: none;
+    color: #565959;
 }
