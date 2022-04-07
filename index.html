@@ -4,7 +4,179 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/normalize.css" />
+        <link rel="stylesheet" href="./styles/fonts.styles.css" />
+        <link rel="stylesheet" href="./styles/desktop.styles.css" />
         <title>Document</title>
     </head>
-    <body></body>
+    <body>
+        <nav class="navbar align-col">
+            <section class="navbar__top align-row">
+                <div class="navbar-left-top align-row align-left">
+                    <div class="logo">
+                        <img src="./assets/images/logo.png" alt="" />
+                    </div>
+                    <div class="is-deliver align-row">
+                        <img
+                            src="./assets/images/location.png"
+                            alt=""
+                            class="location"
+                        />
+                        <div class="align-col deliver-txt">
+                            <span class="small-txt">Deliver to</span>
+                            <span class="larg-txt">Israel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-bar align-center">
+                    <form class="align-row">
+                        <div class="search-bar__search-left">
+                            <label
+                                for="search-filter"
+                                id="search-filter"
+                            ></label>
+                            <select name="search-filter" id="search-filter">
+                                <option
+                                    selected="selected"
+                                    value="search-filter-all"
+                                >
+                                    All
+                                </option>
+                                <option value="search-filter-all-dep">
+                                    All Departments
+                                </option>
+                                <option value="search-filter-crafts">
+                                    Arts & Crafts
+                                </option>
+                                <option value="search-filter-automotive">
+                                    AUtomptive
+                                </option>
+                                <option value="search-filter-baby">Baby</option>
+                                <option value="search-filter-beauty">
+                                    Beauty & Personal Care
+                                </option>
+                                <option value="search-filter-books">
+                                    Books
+                                </option>
+                                <option value="search-filter-boys">
+                                    Boys' Fashion
+                                </option>
+                                <option value="search-filter-computer">
+                                    Computers
+                                </option>
+                                <option value="search-filter-deals">
+                                    Deals
+                                </option>
+                                <option value="search-filter-music">
+                                    Digital Music
+                                </option>
+                                <option value="search-filter-electronic">
+                                    Electronics
+                                </option>
+                                <option value="search-filter-girls">
+                                    Girls' Fashion
+                                </option>
+                                <option value="search-filter-health">
+                                    Health & Household
+                                </option>
+                                <option value="search-filter-home">
+                                    Home & Kitchen
+                                </option>
+                                <option value="search-filter-industrial">
+                                    Industrial & Scientific
+                                </option>
+                                <option value="search-filter-kindle">
+                                    Kindle Store
+                                </option>
+                                <option value="search-filter-luggage">
+                                    Luggage
+                                </option>
+                                <option value="search-filter-men">
+                                    Men's Fashion
+                                </option>
+                                <option value="search-filter-movies">
+                                    Movies & TV
+                                </option>
+                                <option value="search-filter-music-cd-vinyl">
+                                    Music, CDs & Vinyl
+                                </option>
+                                <option value="search-filter-pet">
+                                    Pet Supplies
+                                </option>
+                                <option value="search-filter-prime-video">
+                                    Prime Video
+                                </option>
+                                <option value="search-filter-software">
+                                    Software
+                                </option>
+                                <option value="search-filter-sports">
+                                    Sports & Outdoors
+                                </option>
+                                <option value="search-filter-tools">
+                                    Tools & Home Improvement
+                                </option>
+                                <option value="search-filter-toys">
+                                    Toys & Games
+                                </option>
+                                <option value="search-filter-video-games">
+                                    Video Games
+                                </option>
+                                <option value="search-filter-women">
+                                    Women's Fashion
+                                </option>
+                            </select>
+                        </div>
+                        <div class="search-bar__search-fill">
+                            <label for="text" id="search-fill"></label>
+                            <input type="text" name="text" id="text" />
+                        </div>
+                        <div class="search-bar__search-right">
+                            <a href="#" class="bg-orange">
+                                <div class="search-sprite"></div>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+                <div class="right-top-navbar align-row align-right">
+                    <div class="language">
+                        <img src="" alt="" />
+                    </div>
+                    <div class="sign-in align-col">
+                        <span class="small-txt">Hello, Sign in</span>
+                        <span class="larg-txt">Account & Lists</span>
+                    </div>
+                    <div class="returns-and-orders align-col">
+                        <span class="small-txt">Returns</span>
+                        <span class="larg-txt">& Orders</span>
+                    </div>
+                    <div class="cart align-row">
+                        <div class="cart-sprite"></div>
+                        <span class="larg-txt">Cart</span>
+                    </div>
+                </div>
+            </section>
+            <section class="navbar__bottom">
+                <ul class="align-row">
+                    <li class="align-row navbar-bottom-el">
+                        <a href="#" class="hamburger align-row">
+                            <div class="hamburger-sprite"></div>
+                            <div class="hamburger-menu-text">All</div>
+                        </a>
+                    </li>
+                    <li class="navbar-bottom-el">
+                        <a href="#">Today's Deals</a>
+                    </li>
+                    <li class="navbar-bottom-el">
+                        <a href="#">Customer Service</a>
+                    </li>
+                    <li class="navbar-bottom-el"><a href="#">Registry</a></li>
+                    <li class="navbar-bottom-el"><a href="#">Gift Cards</a></li>
+                    <li class="navbar-bottom-el"><a href="#">Sell</a></li>
+                    <li class="navbar-bottom-el">
+                        <a href="#">Local Delivery in Israel</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </body>
 </html>
