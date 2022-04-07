@@ -135,14 +135,17 @@ label#search-fill {
 
 .cart-load {
     position: absolute;
-    color: #f08804;
+    color: rgb(
+        15,
+        122,
+        251
+    ); /*Chose the inverted color (because we invert the div for the cart icon color.*/
     font-size: 1.6rem;
     left: 1.8rem;
     right: auto;
     top: -0.6rem;
     width: 1.9rem;
     font-weight: 700;
-    filter: invert(1);
 }
 
 /* Bottom navbar */
