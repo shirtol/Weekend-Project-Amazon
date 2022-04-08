@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="./styles/fonts.styles.css" />
         <link rel="stylesheet" href="./styles/desktop.styles.css" />
         <link rel="stylesheet" href="./styles/navbar/desktop.navbar.css" />
+        <link rel="stylesheet" href="./styles/main/desktop.main.css" />
         <title>Document</title>
     </head>
     <body>
@@ -239,7 +240,7 @@
 
         <!-- Main- prodict information -->
         <main class="main grid-container">
-            <div class="main__preview-imgs">
+            <div class="main__preview-imgs align-col">
                 <div class="img-container">
                     <img src="./assets/images/item1-preview1.jpg" alt="" />
                 </div>
@@ -268,7 +269,7 @@
             </div>
 
             <div class="main__product-description-container">
-                <div class="prod-name-amd-ratimg">
+                <div class="prod-name-and-rating">
                     <div class="name">
                         <p>
                             16.5 Inch Snuggly Stuffed Avocado Fruit Soft Plush
@@ -277,25 +278,47 @@
                         </p>
                     </div>
                     <div class="brand">
-                        <p>Brand: AASSOO</p>
+                        <a href="#">Brand: AASSOO</a>
                     </div>
                     <div class="rating align-row">
                         <div class="stars"></div>
                         <div class="num-users-rate">
-                            <p>4,174 ratings | 13 answered questions</p>
+                            <a href="#">4,174 ratings</a> <span> | </span>
+                            <a href="#">13 answered questions</a>
                         </div>
                     </div>
                     <div class="amazon-choice align-row">
-                        <div class="amazon-choice-sprite"></div>
-                        <div class="product-section">for "avocado pillow"</div>
+                        <div class="choice">
+                            <span class="amazon">Amazon's</span>
+                            <span class="orange-txt">Choice</span>
+                        </div>
+                        <div class="product-section">
+                            for "<a href="#">avocado pillow</a>"
+                        </div>
                     </div>
                 </div>
+                <hr />
                 <div class="availability-and-specs">
                     <div class="availabilty"></div>
                     <div class="price">
                         <div class="past-price-container align-row">
-                            <div class="past-price">
-                                <span class="price-category">Was:</span> $17.99
+                            <div class="past-price-container">
+                                <span class="price-category">Was:</span>
+                                <span class="past-price">$17.99</span>
+                                <a href="#">
+                                    <svg
+                                        width="12"
+                                        height="12"
+                                        viewBox="0 0 12 12"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M6 0.210938C2.78906 0.210938 0.1875 2.81438 0.1875 6.02344C0.1875 9.2325 2.78906 11.8359 6 11.8359C9.21094 11.8359 11.8125 9.23438 11.8125 6.02344C11.8125 2.8125 9.21094 0.210938 6 0.210938ZM6 1.99945C6.22107 1.99945 6.43717 2.06501 6.62098 2.18783C6.80479 2.31064 6.94805 2.48521 7.03265 2.68945C7.11725 2.89369 7.13939 3.11843 7.09626 3.33525C7.05313 3.55207 6.94668 3.75123 6.79036 3.90755C6.63404 4.06386 6.43488 4.17032 6.21806 4.21344C6.00124 4.25657 5.7765 4.23444 5.57226 4.14984C5.36802 4.06524 5.19346 3.92198 5.07064 3.73817C4.94782 3.55436 4.88227 3.33825 4.88227 3.11719C4.88227 2.82075 5.00003 2.53645 5.20964 2.32683C5.41926 2.11721 5.70356 1.99945 6 1.99945V1.99945ZM6.89414 9.78961C6.89303 9.86471 6.86237 9.93635 6.8088 9.98899C6.75523 10.0416 6.68308 10.0711 6.60797 10.0709H5.38289C5.34618 10.0708 5.30985 10.0634 5.276 10.0492C5.24216 10.035 5.21147 10.0142 5.18571 9.98802C5.15994 9.96187 5.13962 9.93087 5.12592 9.89681C5.11221 9.86275 5.10539 9.82632 5.10586 9.78961V5.8575C5.10543 5.8208 5.11226 5.78438 5.12598 5.75033C5.1397 5.71629 5.16002 5.6853 5.18578 5.65915C5.21153 5.63301 5.24221 5.61222 5.27604 5.59799C5.30987 5.58376 5.34619 5.57637 5.38289 5.57625H6.60797C6.68308 5.57606 6.75523 5.60547 6.8088 5.65812C6.86237 5.71076 6.89303 5.7824 6.89414 5.8575V9.78961Z"
+                                            fill="#969696"
+                                        />
+                                    </svg>
+                                </a>
                             </div>
                             <div class="information-icon"></div>
                         </div>
@@ -308,58 +331,66 @@
                         <div class="saved-money">
                             <p>
                                 <span class="price-category">You Save:</span>
-                                $2.00 (11%)
+                                <span class="price-small">$2.00 (11%)</span>
                             </p>
                         </div>
                     </div>
                     <div class="tax-and-import">
                         <p>
                             No Import Fees Deposit & $25.60 Shipping to Israel
-                            Details
+                            <span class="details"><a href="#">Details</a></span>
                         </p>
                     </div>
                     <div class="color">
-                        <p><span>Color:</span> A</p>
+                        <p>Color: <strong>A</strong></p>
                     </div>
                     <div class="item-chooser align-row">
-                        <div class="item-chooser1__container align-row">
+                        <div
+                            class="item-chooser1__container align-row item-box"
+                        >
                             <img src="./assets/images/item1.jpg" alt="" />
                             <div class="price">$15.99</div>
                         </div>
-                        <div class="item-chooser2__container align-row">
+                        <div
+                            class="item-chooser2__container align-row item-box"
+                        >
                             <img src="./assets/images/item2.jpg" alt="" />
-                            <div class="price-container">
+                            <div class="price-container price second-item">
                                 <p>1 option from</p>
-                                <div class="price">$15.99</div>
+                                <div class="price-second-item">$39.99</div>
                             </div>
                         </div>
                     </div>
-                    <div class="more-info-container">
-                        <div class="toy-figure align-row">
-                            <span class="title">Toy figure type</span>
-                            <span class="description">Stuffed Toy</span>
-                        </div>
-                        <div class="brand align-row">
-                            <span class="title">Brand</span>
-                            <span class="description">AASSOO</span>
-                        </div>
-                        <div class="age align-row">
-                            <span class="title"
-                                >Age Range <br />
-                                (Description)</span
-                            >
-                            <span class="description">Kid, adult</span>
-                        </div>
-                        <div class="color align-row">
-                            <span class="title">Color</span>
-                            <span class="description">A</span>
-                        </div>
-                        <div class="material align-row">
-                            <span class="title">Material</span>
-                            <span class="description">Cotton</span>
-                        </div>
-                    </div>
+                    <table class="more-info-container">
+                        <tbody>
+                            <tr class="toy-figure align-row">
+                                <td class="title">Toy figure type</td>
+                                <td class="description">Stuffed Toy</td>
+                            </tr>
+                            <tr class="brand align-row">
+                                <td class="title">Brand</td>
+                                <td class="description">AASSOO</td>
+                            </tr>
+                            <tr class="age align-row">
+                                <td class="title">
+                                    Age Range <br />
+                                    (Description)
+                                </td>
+                                <td class="description">Kid, adult</td>
+                            </tr>
+                            <tr class="color-description align-row">
+                                <td class="title">Color</td>
+                                <td class="description">A</td>
+                            </tr>
+                            <tr class="material align-row">
+                                <td class="title">Material</td>
+                                <td class="description">Cotton</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+
+                <hr />
 
                 <div class="main__about-item">
                     <div class="about-item__header">
