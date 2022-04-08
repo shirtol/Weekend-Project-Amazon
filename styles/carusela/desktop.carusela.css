@@ -1,0 +1,75 @@
+.carousel {
+    margin-top: 2rem;
+    min-width: 996px;
+}
+
+.carousel h3 {
+    margin-left: 2%;
+    width: 66%;
+    color: #c60;
+    font-size: 16px;
+    margin-bottom: 4px;
+    height: 60px;
+}
+
+.carousel__grid-container {
+    display: grid;
+    grid-template-columns: 0.25fr repeat(7, 1fr) 0.25fr;
+}
+
+.arrow {
+    align-self: center;
+    border-radius: 7px;
+    padding: 6px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    border: 1px solid #d5d9d9;
+    height: auto;
+    text-align: center;
+    width: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+    display: flex;
+}
+
+.arrow img {
+    width: 11px;
+    height: 15px;
+    margin: 5px 6px 5px 5px;
+    align-self: center;
+}
+
+.item-card {
+    width: 160px;
+    margin-left: 33px;
+}
+
+.item-rating {
+    align-self: center;
+}
+
+.stars-container {
+    display: flex;
+    align-items: center;
+}
+
+.item-rating span {
+    height: 18px;
+    width: 8px;
+}
+
+.sprite-stars-img {
+    background: url("../../assets/images/sprite1.png") no-repeat -230px -590px;
+    width: 60px;
+    height: 12px;
+    align-self: center;
+}
+
+.item-price {
+    align-items: center;
+}
+
+.amazon-prime {
+    background: url("../../assets/images/sprite5.png") no-repeat -138px -73px;
+    width: 42px;
+    height: 12px;
+}

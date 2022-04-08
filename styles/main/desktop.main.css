@@ -410,32 +410,3 @@ label input {
 .share-container a {
     margin: 0 0.5rem;
 }
-
-/* .social-mail {
-    background: url("../../assets/images/mail.png") no-repeat center
-        center/cover;
-} */
-
-/* .social-mail-sprite {
-    background: url("../../assets/images/sprite-social.png") no-repeat 0px 0px;
-    width: 18px;
-    height: 15px;
-}
-
-.social-facebook-sprite {
-    background: url("../../assets/images/sprite-social.png") no-repeat -17px 0;
-    width: 18px;
-    height: 15px;
-}
-
-.social-twitter-sprite {
-    background: url("../../assets/images/sprite-social.png") no-repeat -32.5px 0;
-    width: 18px;
-    height: 15px;
-}
-
-.social-pinterest-sprite {
-    background: url("../../assets/images/sprite-social.png") no-repeat 0px 0;
-    width: 18px;
-    height: 15px;
-} */
