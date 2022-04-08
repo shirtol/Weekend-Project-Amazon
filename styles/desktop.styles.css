@@ -49,5 +49,5 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: fit-content(20px) repeat(2, 1fr) 0.5fr;
+    grid-template-columns: fit-content(20px) repeat(2, 1fr) 0.4fr;
 }

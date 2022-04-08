@@ -234,3 +234,9 @@ tbody .description {
     font-weight: 700;
     padding-bottom: 2.4rem;
 }
+
+.main__buy-item-container {
+    border-radius: 0.8rem;
+    border: 1px #d5d9d9 solid;
+    padding: 1.4rem 1.8rem;
+}
