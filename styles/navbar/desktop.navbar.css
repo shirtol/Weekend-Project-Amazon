@@ -59,7 +59,7 @@ label#search-filter {
 
 select {
     display: block;
-    /* width: 100%; */
+    /* width: min-content; */
     /* max-width: 100%; */
     height: 4rem;
     padding-left: 0.5rem;
@@ -154,6 +154,7 @@ label#search-fill {
     background: #232f3e;
     font-size: 1.4rem;
     font-weight: 400;
+    padding-left: 1.3rem;
 }
 
 .navbar-bottom ul {
@@ -164,14 +165,13 @@ label#search-fill {
 .navbar-bottom-el {
     list-style: none;
     padding: 0.8rem 0.9rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.6rem;
+    /* margin-top: 0.5rem; */
+    /* margin-bottom: 0.6rem; */
 }
 
 .navbar-bottom-el a {
     text-decoration: none;
     color: #ffffff;
-    height: 1.2rem;
 }
 
 .hamburger-sprite {
@@ -179,6 +179,15 @@ label#search-fill {
     width: 18px;
     height: 14px;
     margin-right: 0.6rem;
+}
+
+.hamburger {
+    align-items: center;
+    align-content: center;
+}
+
+.hamburger-menu-text {
+    align-self: center;
 }
 
 /* Secondary bottom navbar */
@@ -194,30 +203,11 @@ label#search-fill {
 .navbar-bottom-secondary-el {
     /* height: 3.1rem; */
     padding: 0 1.1rem;
+    list-style: none;
 }
 
 .navbar-bottom-secondary-el a {
     text-decoration: none;
     color: rgb(51, 51, 51);
     line-height: 3.3rem;
-}
-
-/* Breadcrumbs */
-.breadcrumbs-container {
-    color: #565959;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    font-weight: 400;
-    padding: 0 1.6rem;
-    margin-top: 0.8rem;
-}
-
-.breadcrumbs-list li {
-    list-style: none;
-    margin-right: 0.4235rem;
-}
-
-.breadcrumbs-item a {
-    text-decoration: none;
-    color: #565959;
 }

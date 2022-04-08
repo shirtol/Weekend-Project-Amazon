@@ -1,9 +1,30 @@
 .main {
-    margin: 0 15.15rem;
-    margin-top: 2rem;
+    margin: 0 20rem;
+    margin-top: 1rem;
     padding: 1.8rem;
     padding-top: 1.4rem;
     min-width: 996px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs-container {
+    color: #565959;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    padding: 0 1.6rem;
+    margin: 0 20rem;
+    margin-top: 0.8rem;
+}
+
+.breadcrumbs-list li {
+    list-style: none;
+    margin-right: 0.4235rem;
+}
+
+.breadcrumbs-item a {
+    text-decoration: none;
+    color: #565959;
 }
 
 .main__preview-imgs {
