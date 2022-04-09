@@ -15,7 +15,6 @@
 
 .navbar__top {
     height: 6rem;
-    /* align-content: space-between; */
 }
 
 .logo img {
@@ -44,7 +43,6 @@
 
 .is-deliver .deliver-txt {
     padding-left: 0.4rem;
-    /* text-align: center; */
 }
 
 .search-bar {
@@ -59,8 +57,6 @@ label#search-filter {
 
 select {
     display: block;
-    /* width: min-content; */
-    /* max-width: 100%; */
     height: 4rem;
     padding-left: 0.5rem;
     border: 1px solid var(--select-color);
@@ -190,8 +186,6 @@ label#search-fill {
 .navbar-bottom-el {
     list-style: none;
     padding: 0.8rem 0.9rem;
-    /* margin-top: 0.5rem; */
-    /* margin-bottom: 0.6rem; */
 }
 
 .navbar-bottom-el a {
@@ -226,7 +220,6 @@ label#search-fill {
 }
 
 .navbar-bottom-secondary-el {
-    /* height: 3.1rem; */
     padding: 0 1.1rem;
     list-style: none;
 }

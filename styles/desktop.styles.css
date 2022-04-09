@@ -17,8 +17,6 @@ body {
 
 .content-container {
     margin: 0 20rem;
-    /* display: flex; */
-    /* flex-direction: column; */
     justify-content: space-around;
     align-items: center;
 }

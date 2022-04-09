@@ -3,11 +3,9 @@
 }
 
 .main {
-    /* margin: 0 20rem; */
     margin-top: 1rem;
     padding: 1.8rem;
     padding-top: 1.4rem;
-    /* min-width: 996px; */
     justify-content: center;
 }
 
@@ -18,7 +16,6 @@
     line-height: 1.4rem;
     font-weight: 400;
     padding: 0 1.6rem;
-    /* margin: 0 20rem; */
     margin-top: 0.8rem;
 }
 
@@ -145,7 +142,6 @@ hr {
     border-left: none;
     line-height: 1.9rem;
     margin-bottom: 1.4rem;
-    /* border-width: 0; */
 }
 
 .price-category {
@@ -215,8 +211,6 @@ hr {
     margin-left: 0.6rem;
     cursor: pointer;
     justify-content: space-around;
-
-    /* line-height: 700; */
 }
 
 .item-chooser2__container {
@@ -279,7 +273,6 @@ tbody .description {
     border-radius: 0.8rem;
     border: 1px var(--buy-item-border-color) solid;
     padding: 1.4rem 1.8rem;
-    /* height: 74%; */
 }
 
 .main__buy-item-container .price-big {
@@ -359,10 +352,6 @@ tbody .description {
     box-shadow: 0 2px 5px 0 var(--btn-shadow);
     margin-bottom: 0.8rem;
     color: var(--primary-color);
-
-    /* height: 100%;
-    width: 100%; */
-    /* opacity: 0.01; */
 }
 
 a {
@@ -423,7 +412,6 @@ label input {
     width: 1.3rem;
     position: relative;
     bottom: -3px;
-    /* line-height: 1.9rem; */
 }
 .checkbox-gift span {
     padding-left: 0.5rem;
