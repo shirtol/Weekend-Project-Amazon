@@ -436,18 +436,3 @@ label input {
 .share-container a {
     margin: 0 0.5rem;
 }
-
-/* Hover */
-
-.display-border-hover {
-    border: 0px #fff solid;
-}
-
-.display-border-hover:hover {
-    border: 1px #fff solid;
-}
-
-.orange-hover a:hover {
-    color: #ff9900;
-    border-bottom: 2px #ff9900 solid;
-}

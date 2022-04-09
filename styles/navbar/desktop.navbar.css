@@ -162,6 +162,18 @@ label#search-fill {
     background-color: #131921;
 }
 
+.deliver-txt {
+    color: #ffffff;
+}
+
+.white-txt {
+    color: #ffffff;
+}
+
+.search-bar__search-left select {
+    cursor: pointer;
+}
+
 /* Bottom navbar */
 
 .deliver-mobile-only {
@@ -228,5 +240,24 @@ label#search-fill {
     text-decoration: none;
     color: rgb(51, 51, 51);
     line-height: 3.3rem;
-    display: block;
+    display: inline-block;
+}
+
+/* Hover */
+
+.display-border-hover {
+    border: 1px transparent solid;
+}
+
+.display-border-hover:hover {
+    border-color: #fff;
+}
+
+.orange-hover a {
+    border-bottom: 2px transparent solid;
+}
+
+.orange-hover a:hover {
+    color: #ff9900;
+    border-color: #ff9900;
 }
