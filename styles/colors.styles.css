@@ -1,5 +1,6 @@
 :root {
     --primary-color: #0f1111;
+    --product-section-color: #111;
     --white-color: #ffffff;
     --navbar-top-color: #131921;
     --select-color: #cdcdcd;
@@ -39,4 +40,8 @@
     --orange-btn-border-hover: #e3931e;
     --search-filter-hover-color: #dadada;
     --freq-bought-carousel-headers: #c60;
+    --arrow-shadow: rgb(213 217 217 / 50%);
+    --quantity-shadow: rgb(15 17 17/ 15%);
+    --btn-shadow: rgb(213 217 217 / 50%);
+    --preview-image-hover-shadow: rgb(228 121 17 / 50%);
 }

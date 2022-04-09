@@ -121,7 +121,7 @@
 }
 
 .product-section {
-    color: #111;
+    color: var(--product-section-color);
     display: inline;
     margin-left: 0.5rem;
     line-height: 2.2rem;
@@ -337,7 +337,7 @@ tbody .description {
     font-size: 1.1rem;
     padding: 0 0.6rem 0 0.7rem;
     text-align: left;
-    box-shadow: 0 2px 5px rgb(15 17 17/ 15%);
+    box-shadow: 0 2px 5px var(--quantity-shadow);
     background: var(--quantity-color);
     border-radius: 7px;
     height: 2rem;
@@ -352,7 +352,7 @@ tbody .description {
     border-radius: 2rem;
     border-style: solid;
     border-width: 1px;
-    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    box-shadow: 0 2px 5px 0 var(--btn-shadow);
     margin-bottom: 0.8rem;
     color: var(--primary-color);
 
@@ -428,7 +428,7 @@ label input {
 .add-to-list {
     border-radius: 3px;
     background: var(--add-to-list-bg-color);
-    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    box-shadow: 0 2px 5px 0 var(--btn-shadow);
     border: 1px solid;
     border-color: var(--add-to-list-border-color1)
         var(--add-to-list-border-color2) var(--add-to-list-border-color3);
@@ -466,7 +466,7 @@ label input {
 
 .img-container:hover {
     border-color: var(--preview-img-border-color-hover);
-    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+    box-shadow: 0 0 3px 2px var(--preview-image-hover-shadow);
 }
 
 .red-hover:hover {
@@ -476,7 +476,7 @@ label input {
 .btn-yellow:hover {
     background: var(--yellow-btn-bg-hover);
     border-color: var(--btn-border-yellow-color);
-    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    box-shadow: 0 2px 5px 0 var(--btn-shadow);
 }
 
 .btn-orange:hover {
