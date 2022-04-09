@@ -52,25 +52,23 @@
     }
 }
 
-@media (max-width: 1200px) {
-    .item-card:nth-last-child(4),
-    #search-filter {
-        display: none;
-    }
+.item-card:nth-last-child(4),
+#search-filter {
+    display: none;
+}
 
-    input#text {
-        border-top-left-radius: 0.4rem;
-        border-bottom-left-radius: 0.4rem;
-    }
+input#text {
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+}
 
-    .freq-bought-item-1,
-    .freq-bought-item-2 {
-        flex-direction: column;
-    }
+.freq-bought-item-1,
+.freq-bought-item-2 {
+    flex-direction: column;
+}
 
-    .carousel__grid-container {
-        grid-template-columns: 0.25fr repeat(4, 1fr) 0.25fr;
-    }
+.carousel__grid-container {
+    grid-template-columns: 0.25fr repeat(4, 1fr) 0.25fr;
 }
 
 @media (max-width: 1000px) {
