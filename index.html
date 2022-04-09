@@ -13,11 +13,17 @@
         <link rel="stylesheet" href="./styles/desktop.styles.css" />
         <link rel="stylesheet" href="./styles/navbar/desktop.navbar.css" />
         <link rel="stylesheet" href="./styles/main/desktop.main.css" />
-        <link rel="stylesheet" href="./styles/carusela/desktop.carusela.css" />
         <link
             rel="stylesheet"
             href="./styles/freq-bought/desktop.freq-bought.css"
         />
+        <link rel="stylesheet" href="./styles/carusela/desktop.carusela.css" />
+        <link
+            rel="stylesheet"
+            media="(max-width: 1440px)"
+            href="./styles/mobile.styles.css"
+        />
+
         <title>Document</title>
     </head>
     <body>
@@ -169,7 +175,19 @@
                 </div>
             </section>
             <section class="navbar__bottom">
-                <ul class="align-row">
+                <div class="deliver-mobile-only">
+                    <div class="is-deliver align-row">
+                        <img
+                            src="./assets/images/location.png"
+                            alt=""
+                            class="location"
+                        />
+                        <div class="deliver-txt">
+                            <span class="small-txt">Deliver to Israel</span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="align-row desktop-only">
                     <li class="align-row navbar-bottom-el">
                         <a href="#" class="hamburger align-row">
                             <div class="hamburger-sprite"></div>
@@ -227,612 +245,714 @@
             </section>
         </nav>
 
-        <!-- Main- prodict information -->
-        <div class="breadcrumbs-container">
-            <ul class="breadcrumbs-list align-row">
-                <li class="breadcrumbs-item">
-                    <a href="#">Toys & Games</a>
-                </li>
-                <li class="breadcrumbs-divider"><span> › </span></li>
-                <li class="breadcrumbs-item">
-                    <a href="#">Stuffed Animals & Plush Toys</a>
-                </li>
-                <li class="breadcrumbs-divider"><span> › </span></li>
-                <li class="breadcrumbs-item">
-                    <a href="#">Plush Pillows</a>
-                </li>
-            </ul>
-        </div>
-        <main class="main grid-container">
-            <div class="main__preview-imgs align-col">
-                <div class="img-container">
-                    <img src="./assets/images/item1-preview1.jpg" alt="" />
+        <!-- Main- product information -->
+        <div class="align-row content-container">
+            <div>
+                <div class="breadcrumbs-container">
+                    <ul class="breadcrumbs-list align-row">
+                        <li class="breadcrumbs-item">
+                            <a href="#">Toys & Games</a>
+                        </li>
+                        <li class="breadcrumbs-divider"><span> › </span></li>
+                        <li class="breadcrumbs-item">
+                            <a href="#">Stuffed Animals & Plush Toys</a>
+                        </li>
+                        <li class="breadcrumbs-divider"><span> › </span></li>
+                        <li class="breadcrumbs-item">
+                            <a href="#">Plush Pillows</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="img-container">
-                    <img src="./assets/images/item1-preview2.jpg" alt="" />
-                </div>
-                <div class="img-container">
-                    <img src="./assets/images/item1-preview3.jpg" alt="" />
-                </div>
-                <div class="img-container">
-                    <img src="./assets/images/item1-preview4.jpg" alt="" />
-                </div>
-                <div class="img-container">
-                    <img src="./assets/images/item1-preview5.jpg" alt="" />
-                </div>
-                <div class="img-container">
-                    <img src="./assets/images/item1-preview6.jpg" alt="" />
-                </div>
-                <div class="img-container">
-                    <img src="./assets/images/item1-preview7.jpg" alt="" />
-                </div>
-            </div>
+                <main class="main grid-container">
+                    <div class="main__preview-imgs align-col">
+                        <div class="img-container">
+                            <img
+                                src="./assets/images/item1-preview1.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="img-container">
+                            <img
+                                src="./assets/images/item1-preview2.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="img-container">
+                            <img
+                                src="./assets/images/item1-preview3.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="img-container">
+                            <img
+                                src="./assets/images/item1-preview4.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="img-container">
+                            <img
+                                src="./assets/images/item1-preview5.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="img-container">
+                            <img
+                                src="./assets/images/item1-preview6.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="img-container">
+                            <img
+                                src="./assets/images/item1-preview7.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
 
-            <div class="main__big-img-container">
-                <img src="./assets/images/item1-big1.jpg" alt="" />
-            </div>
+                    <div class="main__big-img-container">
+                        <img src="./assets/images/item1-big1.jpg" alt="" />
+                    </div>
 
-            <div class="main__product-description-container">
-                <div class="prod-name-and-rating">
-                    <div class="name">
-                        <p>
-                            16.5 Inch Snuggly Stuffed Avocado Fruit Soft Plush
-                            Toy Hugging Pillow Gifts for Kids, Girl, Boy, and
-                            Friends Christmas
-                        </p>
-                    </div>
-                    <div class="brand">
-                        <a href="#">Brand: AASSOO</a>
-                    </div>
-                    <div class="rating align-row">
-                        <div class="stars"></div>
-                        <div class="num-users-rate">
-                            <a href="#">4,174 ratings</a> <span> | </span>
-                            <a href="#">13 answered questions</a>
+                    <div class="main__product-description-container">
+                        <div class="prod-name-and-rating">
+                            <div class="name">
+                                <p>
+                                    16.5 Inch Snuggly Stuffed Avocado Fruit Soft
+                                    Plush Toy Hugging Pillow Gifts for Kids,
+                                    Girl, Boy, and Friends Christmas
+                                </p>
+                            </div>
+                            <div class="brand">
+                                <a href="#">Brand: AASSOO</a>
+                            </div>
+                            <div class="rating align-row">
+                                <div class="stars"></div>
+                                <div class="num-users-rate">
+                                    <a href="#">4,174 ratings</a>
+                                    <span> | </span>
+                                    <a href="#">13 answered questions</a>
+                                </div>
+                            </div>
+                            <div class="amazon-choice align-row">
+                                <div class="choice">
+                                    <span class="amazon">Amazon's</span>
+                                    <span class="orange-txt">Choice</span>
+                                </div>
+                                <div class="product-section">
+                                    for "<a href="#">avocado pillow</a>"
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="amazon-choice align-row">
-                        <div class="choice">
-                            <span class="amazon">Amazon's</span>
-                            <span class="orange-txt">Choice</span>
-                        </div>
-                        <div class="product-section">
-                            for "<a href="#">avocado pillow</a>"
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div class="availability-and-specs">
-                    <div class="availabilty"></div>
-                    <div class="price">
-                        <div class="past-price-container align-row">
-                            <div class="past-price-container">
-                                <span class="price-category">Was:</span>
-                                <span class="past-price">$17.99</span>
-                                <a href="#">
-                                    <svg
-                                        width="12"
-                                        height="12"
-                                        viewBox="0 0 12 12"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
+                        <hr />
+                        <div class="availability-and-specs">
+                            <div class="availabilty"></div>
+                            <div class="price">
+                                <div class="past-price-container align-row">
+                                    <div class="past-price-container">
+                                        <span class="price-category">Was:</span>
+                                        <span class="past-price">$17.99</span>
+                                        <a href="#">
+                                            <svg
+                                                width="12"
+                                                height="12"
+                                                viewBox="0 0 12 12"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M6 0.210938C2.78906 0.210938 0.1875 2.81438 0.1875 6.02344C0.1875 9.2325 2.78906 11.8359 6 11.8359C9.21094 11.8359 11.8125 9.23438 11.8125 6.02344C11.8125 2.8125 9.21094 0.210938 6 0.210938ZM6 1.99945C6.22107 1.99945 6.43717 2.06501 6.62098 2.18783C6.80479 2.31064 6.94805 2.48521 7.03265 2.68945C7.11725 2.89369 7.13939 3.11843 7.09626 3.33525C7.05313 3.55207 6.94668 3.75123 6.79036 3.90755C6.63404 4.06386 6.43488 4.17032 6.21806 4.21344C6.00124 4.25657 5.7765 4.23444 5.57226 4.14984C5.36802 4.06524 5.19346 3.92198 5.07064 3.73817C4.94782 3.55436 4.88227 3.33825 4.88227 3.11719C4.88227 2.82075 5.00003 2.53645 5.20964 2.32683C5.41926 2.11721 5.70356 1.99945 6 1.99945V1.99945ZM6.89414 9.78961C6.89303 9.86471 6.86237 9.93635 6.8088 9.98899C6.75523 10.0416 6.68308 10.0711 6.60797 10.0709H5.38289C5.34618 10.0708 5.30985 10.0634 5.276 10.0492C5.24216 10.035 5.21147 10.0142 5.18571 9.98802C5.15994 9.96187 5.13962 9.93087 5.12592 9.89681C5.11221 9.86275 5.10539 9.82632 5.10586 9.78961V5.8575C5.10543 5.8208 5.11226 5.78438 5.12598 5.75033C5.1397 5.71629 5.16002 5.6853 5.18578 5.65915C5.21153 5.63301 5.24221 5.61222 5.27604 5.59799C5.30987 5.58376 5.34619 5.57637 5.38289 5.57625H6.60797C6.68308 5.57606 6.75523 5.60547 6.8088 5.65812C6.86237 5.71076 6.89303 5.7824 6.89414 5.8575V9.78961Z"
+                                                    fill="#969696"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="information-icon"></div>
+                                </div>
+                                <div class="curr-price">
+                                    <p>
+                                        <span class="price-category"
+                                            >Price:</span
+                                        >
+                                        <span class="price-big"> $15.99</span>
+                                    </p>
+                                </div>
+                                <div class="saved-money">
+                                    <p>
+                                        <span class="price-category"
+                                            >You Save:</span
+                                        >
+                                        <span class="price-small"
+                                            >$2.00 (11%)</span
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tax-and-import">
+                                <p>
+                                    No Import Fees Deposit & $25.60 Shipping to
+                                    Israel
+                                    <span class="details"
+                                        ><a href="#">Details</a></span
                                     >
-                                        <path
-                                            d="M6 0.210938C2.78906 0.210938 0.1875 2.81438 0.1875 6.02344C0.1875 9.2325 2.78906 11.8359 6 11.8359C9.21094 11.8359 11.8125 9.23438 11.8125 6.02344C11.8125 2.8125 9.21094 0.210938 6 0.210938ZM6 1.99945C6.22107 1.99945 6.43717 2.06501 6.62098 2.18783C6.80479 2.31064 6.94805 2.48521 7.03265 2.68945C7.11725 2.89369 7.13939 3.11843 7.09626 3.33525C7.05313 3.55207 6.94668 3.75123 6.79036 3.90755C6.63404 4.06386 6.43488 4.17032 6.21806 4.21344C6.00124 4.25657 5.7765 4.23444 5.57226 4.14984C5.36802 4.06524 5.19346 3.92198 5.07064 3.73817C4.94782 3.55436 4.88227 3.33825 4.88227 3.11719C4.88227 2.82075 5.00003 2.53645 5.20964 2.32683C5.41926 2.11721 5.70356 1.99945 6 1.99945V1.99945ZM6.89414 9.78961C6.89303 9.86471 6.86237 9.93635 6.8088 9.98899C6.75523 10.0416 6.68308 10.0711 6.60797 10.0709H5.38289C5.34618 10.0708 5.30985 10.0634 5.276 10.0492C5.24216 10.035 5.21147 10.0142 5.18571 9.98802C5.15994 9.96187 5.13962 9.93087 5.12592 9.89681C5.11221 9.86275 5.10539 9.82632 5.10586 9.78961V5.8575C5.10543 5.8208 5.11226 5.78438 5.12598 5.75033C5.1397 5.71629 5.16002 5.6853 5.18578 5.65915C5.21153 5.63301 5.24221 5.61222 5.27604 5.59799C5.30987 5.58376 5.34619 5.57637 5.38289 5.57625H6.60797C6.68308 5.57606 6.75523 5.60547 6.8088 5.65812C6.86237 5.71076 6.89303 5.7824 6.89414 5.8575V9.78961Z"
-                                            fill="#969696"
-                                        />
-                                    </svg>
+                                </p>
+                            </div>
+                            <div class="color">
+                                <p>Color: <strong>A</strong></p>
+                            </div>
+                            <div class="item-chooser align-row">
+                                <div
+                                    class="item-chooser1__container align-row item-box"
+                                >
+                                    <img
+                                        src="./assets/images/item1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="price">$15.99</div>
+                                </div>
+                                <div
+                                    class="item-chooser2__container align-row item-box"
+                                >
+                                    <img
+                                        src="./assets/images/item2.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="price-container price second-item"
+                                    >
+                                        <p>1 option from</p>
+                                        <div class="price-second-item">
+                                            $39.99
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="more-info-container">
+                                <tbody>
+                                    <tr class="toy-figure align-row">
+                                        <td class="title">Toy figure type</td>
+                                        <td class="description">Stuffed Toy</td>
+                                    </tr>
+                                    <tr class="brand align-row">
+                                        <td class="title">Brand</td>
+                                        <td class="description">AASSOO</td>
+                                    </tr>
+                                    <tr class="age align-row">
+                                        <td class="title">
+                                            Age Range <br />
+                                            (Description)
+                                        </td>
+                                        <td class="description">Kid, adult</td>
+                                    </tr>
+                                    <tr class="color-description align-row">
+                                        <td class="title">Color</td>
+                                        <td class="description">A</td>
+                                    </tr>
+                                    <tr class="material align-row">
+                                        <td class="title">Material</td>
+                                        <td class="description">Cotton</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <hr />
+
+                        <div class="main__about-item">
+                            <div class="about-item__header">
+                                <h4>About this item</h4>
+                                <ul class="about-item__list">
+                                    <li class="about-list-el">
+                                        Premium Quality: Soft plush toys made of
+                                        premium plush fabrics, filling with
+                                        super soft material. Fits for home,
+                                        office, nursery beds, kids’ room, car,
+                                        and every place you like.
+                                    </li>
+                                    <li class="about-list-el">
+                                        Huggable Companion: This snuggly,
+                                        adorable, and stuffed avocado plush toy
+                                        will become your friends in your daily
+                                        life. Kids, teens, & adults will enjoy
+                                        the companion of this avocado plush toy.
+                                    </li>
+                                    <li class="about-list-el">
+                                        Great gifts for kids and friends: If
+                                        you’re looking for inspiration on what
+                                        to buy as a gift. Don’t be hesitate to
+                                        take it home. This will be one of your
+                                        best purchase.
+                                    </li>
+                                    <li class="about-list-el">
+                                        Customer service - With AASSOO we
+                                        provide the best customer service to our
+                                        customers. Please check our storefront
+                                        for more products and other deals that
+                                        are waiting for you.
+                                    </li>
+                                    <li class="about-list-el">
+                                        Suitable: Children/Family/Friends
+                                        /Relative can't miss it! Great choice
+                                        for hugging bed pillow for both adult
+                                        and kid too. Suitable for bedroom,
+                                        living room, family, office, etc.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="buy-and-share-container align-col">
+                        <div class="main__buy-item-container">
+                            <div class="price-big">$15.99</div>
+                            <div class="tax-and-import">
+                                <p>
+                                    No Import Fees Deposit & $25.60 Shipping to
+                                    Israel
+                                </p>
+                            </div>
+                            <div class="more-details">
+                                <a href="#">Details</a>
+                            </div>
+                            <div class="delivery-info align-row">
+                                <span class="title"
+                                    >Delivery <strong>Monday, April 25</strong>
+                                </span>
+                            </div>
+                            <div class="fast-delivery-info">
+                                <p>
+                                    Or fastest delivery
+                                    <strong>Thursday, April 14.</strong> Order
+                                    within
+                                    <span class="green-txt">8 hrs 18 mins</span>
+                                </p>
+                            </div>
+                            <div class="is-deliver align-row is-deliver-main">
+                                <img
+                                    src="./assets/images/location.png"
+                                    alt=""
+                                    class="location"
+                                />
+                                <div class="align-col deliver-txt">
+                                    <a href="#">Deliver to Israel</a>
+                                </div>
+                            </div>
+                            <div class="stock-info">
+                                <p class="green-txt">In Stock.</p>
+                            </div>
+                            <div class="quantity">
+                                <label for="qty" id="qty"></label>
+                                <select name="qty" id="qty">
+                                    <option selected="selected" value="1">
+                                        1
+                                    </option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                </select>
+                            </div>
+                            <a href="#">
+                                <div class="btn btn-yellow">Add to Cart</div>
+                            </a>
+                            <a href="#">
+                                <div class="btn btn-orange">Buy Now</div>
+                            </a>
+                            <div class="secure align-row">
+                                <img src="" alt="" class="lock" />
+                                <p class="blue-color">Secure transaction</p>
+                            </div>
+                            <div class="ship-sold-container">
+                                <div class="ship-info">
+                                    <div class="ships-from align-row">
+                                        <span class="header">Ships from</span>
+                                        <span class="info">Amazon</span>
+                                    </div>
+                                </div>
+                                <div class="sold-info">
+                                    <div class="sold-by align-row">
+                                        <span class="header">Sold by</span>
+                                        <a href="#"
+                                            ><span class="info blue-color">
+                                                Bearcool Direct</span
+                                            ></a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="return-policy">
+                                <p>
+                                    Return policy:
+                                    <a
+                                        href="#"
+                                        class="return-policy-link blue-color"
+                                        >Eligible for Return, Refund or
+                                        Replacement within 30 days of receipt</a
+                                    >
+                                </p>
+                            </div>
+
+                            <div class="checkbox align-row">
+                                <label
+                                    for="gift-container"
+                                    class="align-row checkbox-gift"
+                                >
+                                    <input
+                                        type="checkbox"
+                                        name="gift"
+                                        id="gift"
+                                        value="gift"
+                                    />
+                                    <span
+                                        >Add a gift receipt for easy
+                                        returns</span
+                                    >
+                                </label>
+                            </div>
+
+                            <hr />
+                            <a href="#" class="add-to-list-link">
+                                <div class="add-to-list list-btn">
+                                    Add to list
+                                </div>
+                            </a>
+                        </div>
+                        <div class="share-container align-row">
+                            <span>Share</span>
+                            <a href="#" class="social-mail">
+                                <img src="./assets/images/mail.png" alt="" />
+                            </a>
+                            <a href="#" class="social-facebook">
+                                <img
+                                    src="./assets/images/facebook.png"
+                                    alt=""
+                                />
+                            </a>
+                            <a href="#" class="social-twitter">
+                                <img src="./assets/images/twitter.png" alt="" />
+                            </a>
+                            <a href="#" class="social-pinterest">
+                                <img
+                                    src="./assets/images/pinterest.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </main>
+
+                <hr />
+
+                <div class="align-row freq-bought">
+                    <section class="align-col">
+                        <h3>Frequently bought together</h3>
+                        <div class="align-row">
+                            <div class="freq-img-container align-row">
+                                <img
+                                    src="./assets/images/freq-bought-avo.jpg"
+                                    alt=""
+                                />
+                                <span class="plus">+</span>
+                                <img
+                                    src="./assets/images/freq-bought-pina.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="price-and-add align-col">
+                                <div class="price-container">
+                                    <span class="price-category"
+                                        >Total price:</span
+                                    >
+                                    <span class="price-big"> $38.98</span>
+                                </div>
+                                <a href="#">
+                                    <div class="btn btn-yellow">
+                                        Add both to Cart
+                                    </div>
                                 </a>
                             </div>
-                            <div class="information-icon"></div>
                         </div>
-                        <div class="curr-price">
+                        <div class="shipping-info align-row">
+                            <svg
+                                width="18"
+                                height="18"
+                                viewBox="0 0 12 12"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M6 0.210938C2.78906 0.210938 0.1875 2.81438 0.1875 6.02344C0.1875 9.2325 2.78906 11.8359 6 11.8359C9.21094 11.8359 11.8125 9.23438 11.8125 6.02344C11.8125 2.8125 9.21094 0.210938 6 0.210938ZM6 1.99945C6.22107 1.99945 6.43717 2.06501 6.62098 2.18783C6.80479 2.31064 6.94805 2.48521 7.03265 2.68945C7.11725 2.89369 7.13939 3.11843 7.09626 3.33525C7.05313 3.55207 6.94668 3.75123 6.79036 3.90755C6.63404 4.06386 6.43488 4.17032 6.21806 4.21344C6.00124 4.25657 5.7765 4.23444 5.57226 4.14984C5.36802 4.06524 5.19346 3.92198 5.07064 3.73817C4.94782 3.55436 4.88227 3.33825 4.88227 3.11719C4.88227 2.82075 5.00003 2.53645 5.20964 2.32683C5.41926 2.11721 5.70356 1.99945 6 1.99945V1.99945ZM6.89414 9.78961C6.89303 9.86471 6.86237 9.93635 6.8088 9.98899C6.75523 10.0416 6.68308 10.0711 6.60797 10.0709H5.38289C5.34618 10.0708 5.30985 10.0634 5.276 10.0492C5.24216 10.035 5.21147 10.0142 5.18571 9.98802C5.15994 9.96187 5.13962 9.93087 5.12592 9.89681C5.11221 9.86275 5.10539 9.82632 5.10586 9.78961V5.8575C5.10543 5.8208 5.11226 5.78438 5.12598 5.75033C5.1397 5.71629 5.16002 5.6853 5.18578 5.65915C5.21153 5.63301 5.24221 5.61222 5.27604 5.59799C5.30987 5.58376 5.34619 5.57637 5.38289 5.57625H6.60797C6.68308 5.57606 6.75523 5.60547 6.8088 5.65812C6.86237 5.71076 6.89303 5.7824 6.89414 5.8575V9.78961Z"
+                                    fill="#007185"
+                                />
+                            </svg>
                             <p>
-                                <span class="price-category">Price:</span>
-                                <span class="price-big"> $15.99</span>
+                                These items are shipped from and sold by
+                                different sellers.
+                                <a href="#" class="blue-color">Show details</a>
                             </p>
                         </div>
-                        <div class="saved-money">
-                            <p>
-                                <span class="price-category">You Save:</span>
-                                <span class="price-small">$2.00 (11%)</span>
-                            </p>
+                        <div class="checkbox align-row">
+                            <label
+                                for="freq-bought-item-1"
+                                class="align-row freq-bought-item-1"
+                            >
+                                <input
+                                    checked
+                                    type="checkbox"
+                                    name="freq-bought-item-1"
+                                    id="freq-bought-item-1"
+                                    value="freq-bought-item-1"
+                                />
+                                <span
+                                    ><strong>This item:</strong> 16.5 Inch
+                                    Snuggly Stuffed Avocado Fruit Soft Plush Toy
+                                    Hugging Pillow Gifts for Kids, Girl, Boy,
+                                    and Friends Christmas</span
+                                >
+                                <span>
+                                    <span class="price-big"> $15.99</span>
+                                    <span
+                                        >Get it as soon as
+                                        <strong>Monday, Apr 25</strong> $25.60
+                                        shipping</span
+                                    >
+                                </span>
+                            </label>
                         </div>
-                    </div>
-                    <div class="tax-and-import">
-                        <p>
-                            No Import Fees Deposit & $25.60 Shipping to Israel
-                            <span class="details"><a href="#">Details</a></span>
-                        </p>
-                    </div>
-                    <div class="color">
-                        <p>Color: <strong>A</strong></p>
-                    </div>
-                    <div class="item-chooser align-row">
-                        <div
-                            class="item-chooser1__container align-row item-box"
-                        >
-                            <img src="./assets/images/item1.jpg" alt="" />
-                            <div class="price">$15.99</div>
+                        <div class="checkbox align-row">
+                            <label
+                                for="freq-bought-item-2"
+                                class="align-row freq-bought-item-2"
+                            >
+                                <input
+                                    checked
+                                    type="checkbox"
+                                    name="freq-bought-item-2"
+                                    id="freq-bought-item-2"
+                                    value="freq-bought-item-2"
+                                />
+                                <a href="#" class="blue-color"
+                                    >Squishmallows Official Kellytoy Plush 16"
+                                    Maui The Pineapple - Ultrasoft Stuffed
+                                    Animal Plush Toy</a
+                                >
+                                <span>
+                                    <span class="price-big"> $22.99</span>
+                                    <span> $34.38 shipping </span>
+                                </span>
+                            </label>
                         </div>
-                        <div
-                            class="item-chooser2__container align-row item-box"
-                        >
-                            <img src="./assets/images/item2.jpg" alt="" />
-                            <div class="price-container price second-item">
-                                <p>1 option from</p>
-                                <div class="price-second-item">$39.99</div>
-                            </div>
-                        </div>
-                    </div>
-                    <table class="more-info-container">
-                        <tbody>
-                            <tr class="toy-figure align-row">
-                                <td class="title">Toy figure type</td>
-                                <td class="description">Stuffed Toy</td>
-                            </tr>
-                            <tr class="brand align-row">
-                                <td class="title">Brand</td>
-                                <td class="description">AASSOO</td>
-                            </tr>
-                            <tr class="age align-row">
-                                <td class="title">
-                                    Age Range <br />
-                                    (Description)
-                                </td>
-                                <td class="description">Kid, adult</td>
-                            </tr>
-                            <tr class="color-description align-row">
-                                <td class="title">Color</td>
-                                <td class="description">A</td>
-                            </tr>
-                            <tr class="material align-row">
-                                <td class="title">Material</td>
-                                <td class="description">Cotton</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    </section>
                 </div>
 
                 <hr />
 
-                <div class="main__about-item">
-                    <div class="about-item__header">
-                        <h4>About this item</h4>
-                        <ul class="about-item__list">
-                            <li class="about-list-el">
-                                Premium Quality: Soft plush toys made of premium
-                                plush fabrics, filling with super soft material.
-                                Fits for home, office, nursery beds, kids’ room,
-                                car, and every place you like.
-                            </li>
-                            <li class="about-list-el">
-                                Huggable Companion: This snuggly, adorable, and
-                                stuffed avocado plush toy will become your
-                                friends in your daily life. Kids, teens, &
-                                adults will enjoy the companion of this avocado
-                                plush toy.
-                            </li>
-                            <li class="about-list-el">
-                                Great gifts for kids and friends: If you’re
-                                looking for inspiration on what to buy as a
-                                gift. Don’t be hesitate to take it home. This
-                                will be one of your best purchase.
-                            </li>
-                            <li class="about-list-el">
-                                Customer service - With AASSOO we provide the
-                                best customer service to our customers. Please
-                                check our storefront for more products and other
-                                deals that are waiting for you.
-                            </li>
-                            <li class="about-list-el">
-                                Suitable: Children/Family/Friends /Relative
-                                can't miss it! Great choice for hugging bed
-                                pillow for both adult and kid too. Suitable for
-                                bedroom, living room, family, office, etc.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+                <div class="align-row carousel">
+                    <section class="align-col">
+                        <h3>Products related to this item</h3>
+                        <div class="carousel__grid-container">
+                            <div class="arrow">
+                                <img src="./assets/images/arrow-left.png" />
+                            </div>
+                            <div class="item-card align-col">
+                                <img
+                                    src="./assets/images/carousel1.jpg"
+                                    alt=""
+                                />
+                                <div class="item-description">
+                                    <p class="description blue-color">
+                                        20 Inch Large Squishmallow Avocado Plush
+                                        Toy,Soft Avocado Toast Stuffed
+                                    </p>
+                                    <div class="item-rating align-row">
+                                        <div class="stars-container">
+                                            <div class="sprite-stars-img"></div>
+                                        </div>
+                                        <span class="blue-color">8</span>
+                                    </div>
+                                    <div class="item-price align-row">
+                                        <span class="price-big">$23.99</span>
+                                        <div class="amazon-prime"></div>
+                                    </div>
+                                    <span class="fast-shipping"></span>
+                                    <span class="shipping-cost"></span>
+                                </div>
+                            </div>
+                            <div class="item-card align-col">
+                                <img
+                                    src="./assets/images/carousel2.jpg"
+                                    alt=""
+                                />
+                                <div class="item-description">
+                                    <p class="description blue-color">
+                                        Giant Cat Pillow Plush Cartoon Kitty
+                                        Sleeping Hugging Pillow, Cuddly Soft
+                                        Long Kitt...
+                                    </p>
+                                    <div class="item-rating align-row">
+                                        <div class="stars-container">
+                                            <div class="sprite-stars-img"></div>
+                                        </div>
+                                        <span class="blue-color">571</span>
+                                    </div>
+                                    <div class="item-price align-row">
+                                        <span class="price-big">$34.99</span>
+                                        <div class="amazon-prime"></div>
+                                    </div>
+                                    <span class="fast-shipping"></span>
+                                    <span class="shipping-cost"></span>
+                                </div>
+                            </div>
+                            <div class="item-card align-col">
+                                <img
+                                    src="./assets/images/carousel3.jpg"
+                                    alt=""
+                                />
+                                <div class="item-description">
+                                    <p class="description blue-color">
+                                        GRTLPOK Cute Cat Body Pillow,Soft Cat
+                                        Stuffed Animals Body Pillow Toy,Cat
+                                        Plush Hug...
+                                    </p>
+                                    <div class="item-rating align-row">
+                                        <div class="stars-container">
+                                            <div class="sprite-stars-img"></div>
+                                        </div>
+                                        <span class="blue-color">88</span>
+                                    </div>
+                                    <div class="item-price align-row">
+                                        <span class="price-big">$13.99</span>
+                                        <div class="amazon-prime"></div>
+                                    </div>
+                                    <span class="fast-shipping"></span>
+                                    <span class="shipping-cost"></span>
+                                </div>
+                            </div>
+                            <div class="item-card align-col">
+                                <img
+                                    src="./assets/images/carousel4.jpg"
+                                    alt=""
+                                />
+                                <div class="item-description">
+                                    <p class="description blue-color">
+                                        Achwishap Cow Stuffed Animals 13.7” Cow
+                                        Plush Pillow Stuffed Dolls Hugging
+                                        Pillow w...
+                                    </p>
+                                    <div class="item-rating align-row">
+                                        <div class="stars-container">
+                                            <div class="sprite-stars-img"></div>
+                                        </div>
+                                        <span class="blue-color">59</span>
+                                    </div>
+                                    <div class="item-price align-row">
+                                        <span class="price-big">$17.99</span>
+                                        <div class="amazon-prime"></div>
+                                    </div>
+                                    <span class="fast-shipping"></span>
+                                    <span class="shipping-cost"></span>
+                                </div>
+                            </div>
+                            <div class="item-card align-col">
+                                <img
+                                    src="./assets/images/carousel5.jpg"
+                                    alt=""
+                                />
+                                <div class="item-description">
+                                    <p class="description blue-color">
+                                        43.31 Inch Large Cat Soft Plush Long
+                                        Throw Pillow Giant Cartoon Animal
+                                        Pillows Jumb...
+                                    </p>
 
-            <div class="buy-and-share-container">
-                <div class="main__buy-item-container">
-                    <div class="price-big">$15.99</div>
-                    <div class="tax-and-import">
-                        <p>
-                            No Import Fees Deposit & $25.60 Shipping to Israel
-                        </p>
-                    </div>
-                    <div class="more-details">
-                        <a href="#">Details</a>
-                    </div>
-                    <div class="delivery-info align-row">
-                        <span class="title"
-                            >Delivery <strong>Monday, April 25</strong>
-                        </span>
-                    </div>
-                    <div class="fast-delivery-info">
-                        <p>
-                            Or fastest delivery
-                            <strong>Thursday, April 14.</strong> Order within
-                            <span class="green-txt">8 hrs 18 mins</span>
-                        </p>
-                    </div>
-                    <div class="is-deliver align-row is-deliver-main">
-                        <img
-                            src="./assets/images/location.png"
-                            alt=""
-                            class="location"
-                        />
-                        <div class="align-col deliver-txt">
-                            <a href="#">Deliver to Israel</a>
-                        </div>
-                    </div>
-                    <div class="stock-info">
-                        <p class="green-txt">In Stock.</p>
-                    </div>
-                    <div class="quantity">
-                        <label for="qty" id="qty"></label>
-                        <select name="qty" id="qty">
-                            <option selected="selected" value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                            <option value="13">13</option>
-                            <option value="14">14</option>
-                            <option value="15">15</option>
-                            <option value="16">16</option>
-                            <option value="17">17</option>
-                            <option value="18">18</option>
-                            <option value="19">19</option>
-                            <option value="20">20</option>
-                            <option value="21">21</option>
-                            <option value="22">22</option>
-                            <option value="23">23</option>
-                            <option value="24">24</option>
-                            <option value="25">25</option>
-                            <option value="26">26</option>
-                            <option value="27">27</option>
-                            <option value="28">28</option>
-                            <option value="29">29</option>
-                            <option value="30">30</option>
-                        </select>
-                    </div>
-                    <a href="#">
-                        <div class="btn btn-yellow">Add to Cart</div>
-                    </a>
-                    <a href="#">
-                        <div class="btn btn-orange">Buy Now</div>
-                    </a>
-                    <div class="secure align-row">
-                        <img src="" alt="" class="lock" />
-                        <p class="blue-color">Secure transaction</p>
-                    </div>
-                    <div class="ship-sold-container">
-                        <div class="ship-info">
-                            <div class="ships-from align-row">
-                                <span class="header">Ships from</span>
-                                <span class="info">Amazon</span>
+                                    <div class="item-price align-row">
+                                        <span class="price-big">$34.99</span>
+                                        <div class="amazon-prime"></div>
+                                    </div>
+                                    <span class="fast-shipping"></span>
+                                    <span class="shipping-cost"></span>
+                                </div>
+                            </div>
+                            <div class="item-card align-col">
+                                <img
+                                    src="./assets/images/carousel6.jpg"
+                                    alt=""
+                                />
+                                <div class="item-description">
+                                    <p class="description blue-color">
+                                        Cute Seal Plush Stuffed Animal, 19.6''
+                                        Chubby Blob Seal Pillow Toys, Kawaii
+                                        Soft Pl...
+                                    </p>
+                                    <div class="item-rating align-row">
+                                        <div class="stars-container">
+                                            <div class="sprite-stars-img"></div>
+                                        </div>
+                                        <span class="blue-color">34</span>
+                                    </div>
+                                    <div class="item-price align-row">
+                                        <span class="price-big">$19.99</span>
+                                        <div class="amazon-prime"></div>
+                                    </div>
+                                    <span class="fast-shipping"></span>
+                                    <span class="shipping-cost"></span>
+                                </div>
+                            </div>
+                            <div class="item-card align-col">
+                                <img
+                                    src="./assets/images/carousel7.jpg"
+                                    alt=""
+                                />
+                                <div class="item-description">
+                                    <p class="description blue-color">
+                                        VHYHCY Stuffed Animal Shiba Inu Plush
+                                        Pillow, Cute Corgi Dog Plush Soft Anime
+                                        Pet P...
+                                    </p>
+                                    <div class="item-rating align-row">
+                                        <div class="stars-container">
+                                            <div class="sprite-stars-img"></div>
+                                        </div>
+                                        <span class="blue-color">7</span>
+                                    </div>
+                                    <div class="item-price align-row">
+                                        <span class="price-big">$12.99</span>
+                                        <div class="amazon-prime"></div>
+                                    </div>
+                                    <span class="fast-shipping"></span>
+                                    <span class="shipping-cost"></span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <img src="./assets/images/arrow-right.png" />
                             </div>
                         </div>
-                        <div class="sold-info">
-                            <div class="sold-by align-row">
-                                <span class="header">Sold by</span>
-                                <a href="#"
-                                    ><span class="info blue-color">
-                                        Bearcool Direct</span
-                                    ></a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="return-policy">
-                        <p>
-                            Return policy:
-                            <a href="#" class="return-policy-link blue-color"
-                                >Eligible for Return, Refund or Replacement
-                                within 30 days of receipt</a
-                            >
-                        </p>
-                    </div>
-
-                    <div class="checkbox align-row">
-                        <label
-                            for="gift-container"
-                            class="align-row checkbox-gift"
-                        >
-                            <input
-                                type="checkbox"
-                                name="gift"
-                                id="gift"
-                                value="gift"
-                            />
-                            <span>Add a gift receipt for easy returns</span>
-                        </label>
-                    </div>
-
-                    <hr />
-                    <a href="#" class="add-to-list-link">
-                        <div class="add-to-list list-btn">Add to list</div>
-                    </a>
-                </div>
-                <div class="share-container align-row">
-                    <span>Share</span>
-                    <a href="#" class="social-mail">
-                        <img src="./assets/images/mail.png" alt="" />
-                    </a>
-                    <a href="#" class="social-facebook">
-                        <img src="./assets/images/facebook.png" alt="" />
-                    </a>
-                    <a href="#" class="social-twitter">
-                        <img src="./assets/images/twitter.png" alt="" />
-                    </a>
-                    <a href="#" class="social-pinterest">
-                        <img src="./assets/images/pinterest.png" alt="" />
-                    </a>
+                    </section>
                 </div>
             </div>
-        </main>
-
-        <hr />
-
-        <!-- !TODO: ADD buy it with section -->
-        <div class="align-row freq-bought">
-            <section class="align-col">
-                <h3>Frequently bought together</h3>
-                <div class="align-row">
-                    <div class="freq-img-container align-row">
-                        <img src="./assets/images/freq-bought-avo.jpg" alt="" />
-                        <span class="plus">+</span>
-                        <img
-                            src="./assets/images/freq-bought-pina.jpg"
-                            alt=""
-                        />
-                    </div>
-                    <div class="price-and-add align-col">
-                        <div class="price-container">
-                            <span class="price-category">Total price:</span>
-                            <span class="price-big"> $38.98</span>
-                        </div>
-                        <a href="#">
-                            <div class="btn btn-yellow">Add both to Cart</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="shipping-info align-row">
-                    <svg
-                        width="18"
-                        height="18"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M6 0.210938C2.78906 0.210938 0.1875 2.81438 0.1875 6.02344C0.1875 9.2325 2.78906 11.8359 6 11.8359C9.21094 11.8359 11.8125 9.23438 11.8125 6.02344C11.8125 2.8125 9.21094 0.210938 6 0.210938ZM6 1.99945C6.22107 1.99945 6.43717 2.06501 6.62098 2.18783C6.80479 2.31064 6.94805 2.48521 7.03265 2.68945C7.11725 2.89369 7.13939 3.11843 7.09626 3.33525C7.05313 3.55207 6.94668 3.75123 6.79036 3.90755C6.63404 4.06386 6.43488 4.17032 6.21806 4.21344C6.00124 4.25657 5.7765 4.23444 5.57226 4.14984C5.36802 4.06524 5.19346 3.92198 5.07064 3.73817C4.94782 3.55436 4.88227 3.33825 4.88227 3.11719C4.88227 2.82075 5.00003 2.53645 5.20964 2.32683C5.41926 2.11721 5.70356 1.99945 6 1.99945V1.99945ZM6.89414 9.78961C6.89303 9.86471 6.86237 9.93635 6.8088 9.98899C6.75523 10.0416 6.68308 10.0711 6.60797 10.0709H5.38289C5.34618 10.0708 5.30985 10.0634 5.276 10.0492C5.24216 10.035 5.21147 10.0142 5.18571 9.98802C5.15994 9.96187 5.13962 9.93087 5.12592 9.89681C5.11221 9.86275 5.10539 9.82632 5.10586 9.78961V5.8575C5.10543 5.8208 5.11226 5.78438 5.12598 5.75033C5.1397 5.71629 5.16002 5.6853 5.18578 5.65915C5.21153 5.63301 5.24221 5.61222 5.27604 5.59799C5.30987 5.58376 5.34619 5.57637 5.38289 5.57625H6.60797C6.68308 5.57606 6.75523 5.60547 6.8088 5.65812C6.86237 5.71076 6.89303 5.7824 6.89414 5.8575V9.78961Z"
-                            fill="#007185"
-                        />
-                    </svg>
-                    <p>
-                        These items are shipped from and sold by different
-                        sellers.
-                        <a href="#" class="blue-color">Show details</a>
-                    </p>
-                </div>
-                <div class="checkbox align-row">
-                    <label
-                        for="freq-bought-item-1"
-                        class="align-row freq-bought-item-1"
-                    >
-                        <input
-                            checked
-                            type="checkbox"
-                            name="freq-bought-item-1"
-                            id="freq-bought-item-1"
-                            value="freq-bought-item-1"
-                        />
-                        <span
-                            ><strong>This item:</strong> 16.5 Inch Snuggly
-                            Stuffed Avocado Fruit Soft Plush Toy Hugging Pillow
-                            Gifts for Kids, Girl, Boy, and Friends
-                            Christmas</span
-                        >
-                        <span>
-                            <span class="price-big"> $15.99</span>
-                            <span
-                                >Get it as soon as
-                                <strong>Monday, Apr 25</strong> $25.60
-                                shipping</span
-                            >
-                        </span>
-                    </label>
-                </div>
-                <div class="checkbox align-row">
-                    <label
-                        for="freq-bought-item-2"
-                        class="align-row freq-bought-item-2"
-                    >
-                        <input
-                            checked
-                            type="checkbox"
-                            name="freq-bought-item-2"
-                            id="freq-bought-item-2"
-                            value="freq-bought-item-2"
-                        />
-                        <a href="#" class="blue-color"
-                            >Squishmallows Official Kellytoy Plush 16" Maui The
-                            Pineapple - Ultrasoft Stuffed Animal Plush Toy</a
-                        >
-                        <span>
-                            <span class="price-big"> $22.99</span>
-                            <span> $34.38 shipping </span>
-                        </span>
-                    </label>
-                </div>
-            </section>
         </div>
-
-        <hr />
-
-        <section class="carousel align-col">
-            <h3>Products related to this item</h3>
-            <div class="carousel__grid-container">
-                <div class="arrow">
-                    <img src="./assets/images/arrow-left.png" />
-                </div>
-                <div class="item-card align-col">
-                    <img src="./assets/images/carousel1.jpg" alt="" />
-                    <div class="item-description">
-                        <p class="description blue-color">
-                            20 Inch Large Squishmallow Avocado Plush Toy,Soft
-                            Avocado Toast Stuffed
-                        </p>
-                        <div class="item-rating align-row">
-                            <div class="stars-container">
-                                <div class="sprite-stars-img"></div>
-                            </div>
-                            <span class="blue-color">8</span>
-                        </div>
-                        <div class="item-price align-row">
-                            <span class="price-big">$23.99</span>
-                            <div class="amazon-prime"></div>
-                        </div>
-                        <span class="fast-shipping"></span>
-                        <span class="shipping-cost"></span>
-                    </div>
-                </div>
-                <div class="item-card align-col">
-                    <img src="./assets/images/carousel2.jpg" alt="" />
-                    <div class="item-description">
-                        <p class="description blue-color">
-                            Giant Cat Pillow Plush Cartoon Kitty Sleeping
-                            Hugging Pillow, Cuddly Soft Long Kitt...
-                        </p>
-                        <div class="item-rating align-row">
-                            <div class="stars-container">
-                                <div class="sprite-stars-img"></div>
-                            </div>
-                            <span class="blue-color">571</span>
-                        </div>
-                        <div class="item-price align-row">
-                            <span class="price-big">$34.99</span>
-                            <div class="amazon-prime"></div>
-                        </div>
-                        <span class="fast-shipping"></span>
-                        <span class="shipping-cost"></span>
-                    </div>
-                </div>
-                <div class="item-card align-col">
-                    <img src="./assets/images/carousel3.jpg" alt="" />
-                    <div class="item-description">
-                        <p class="description blue-color">
-                            GRTLPOK Cute Cat Body Pillow,Soft Cat Stuffed
-                            Animals Body Pillow Toy,Cat Plush Hug...
-                        </p>
-                        <div class="item-rating align-row">
-                            <div class="stars-container">
-                                <div class="sprite-stars-img"></div>
-                            </div>
-                            <span class="blue-color">88</span>
-                        </div>
-                        <div class="item-price align-row">
-                            <span class="price-big">$13.99</span>
-                            <div class="amazon-prime"></div>
-                        </div>
-                        <span class="fast-shipping"></span>
-                        <span class="shipping-cost"></span>
-                    </div>
-                </div>
-                <div class="item-card align-col">
-                    <img src="./assets/images/carousel4.jpg" alt="" />
-                    <div class="item-description">
-                        <p class="description blue-color">
-                            Achwishap Cow Stuffed Animals 13.7” Cow Plush Pillow
-                            Stuffed Dolls Hugging Pillow w...
-                        </p>
-                        <div class="item-rating align-row">
-                            <div class="stars-container">
-                                <div class="sprite-stars-img"></div>
-                            </div>
-                            <span class="blue-color">59</span>
-                        </div>
-                        <div class="item-price align-row">
-                            <span class="price-big">$17.99</span>
-                            <div class="amazon-prime"></div>
-                        </div>
-                        <span class="fast-shipping"></span>
-                        <span class="shipping-cost"></span>
-                    </div>
-                </div>
-                <div class="item-card align-col">
-                    <img src="./assets/images/carousel5.jpg" alt="" />
-                    <div class="item-description">
-                        <p class="description blue-color">
-                            43.31 Inch Large Cat Soft Plush Long Throw Pillow
-                            Giant Cartoon Animal Pillows Jumb...
-                        </p>
-
-                        <div class="item-price align-row">
-                            <span class="price-big">$34.99</span>
-                            <div class="amazon-prime"></div>
-                        </div>
-                        <span class="fast-shipping"></span>
-                        <span class="shipping-cost"></span>
-                    </div>
-                </div>
-                <div class="item-card align-col">
-                    <img src="./assets/images/carousel6.jpg" alt="" />
-                    <div class="item-description">
-                        <p class="description blue-color">
-                            Cute Seal Plush Stuffed Animal, 19.6'' Chubby Blob
-                            Seal Pillow Toys, Kawaii Soft Pl...
-                        </p>
-                        <div class="item-rating align-row">
-                            <div class="stars-container">
-                                <div class="sprite-stars-img"></div>
-                            </div>
-                            <span class="blue-color">34</span>
-                        </div>
-                        <div class="item-price align-row">
-                            <span class="price-big">$19.99</span>
-                            <div class="amazon-prime"></div>
-                        </div>
-                        <span class="fast-shipping"></span>
-                        <span class="shipping-cost"></span>
-                    </div>
-                </div>
-                <div class="item-card align-col">
-                    <img src="./assets/images/carousel7.jpg" alt="" />
-                    <div class="item-description">
-                        <p class="description blue-color">
-                            VHYHCY Stuffed Animal Shiba Inu Plush Pillow, Cute
-                            Corgi Dog Plush Soft Anime Pet P...
-                        </p>
-                        <div class="item-rating align-row">
-                            <div class="stars-container">
-                                <div class="sprite-stars-img"></div>
-                            </div>
-                            <span class="blue-color">7</span>
-                        </div>
-                        <div class="item-price align-row">
-                            <span class="price-big">$12.99</span>
-                            <div class="amazon-prime"></div>
-                        </div>
-                        <span class="fast-shipping"></span>
-                        <span class="shipping-cost"></span>
-                    </div>
-                </div>
-                <div class="arrow">
-                    <img src="./assets/images/arrow-right.png" />
-                </div>
-            </div>
-        </section>
     </body>
 </html>

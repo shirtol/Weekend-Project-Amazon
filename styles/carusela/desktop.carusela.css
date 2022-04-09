@@ -1,13 +1,6 @@
-.carousel {
-    /* margin: 0 27rem; */
-    min-width: 996px;
-    align-items: center;
-    justify-content: center;
-}
-
 .carousel h3,
 .freq-bought h3 {
-    margin-left: 2%;
+    /* margin-left: 2%; */
     width: 66%;
     color: #c60;
     font-size: 16px;
@@ -17,7 +10,7 @@
 
 .carousel__grid-container {
     display: grid;
-    grid-template-columns: 40px repeat(7, 160px) 40px;
+    grid-template-columns: 0.25fr repeat(7, 1fr) 0.25fr;
     gap: 2rem;
     width: 100%;
     align-items: center;
@@ -46,6 +39,7 @@
 
 .item-card {
     width: 160px;
+    display: block;
 }
 
 .item-rating {

@@ -1,6 +1,6 @@
 .freq-bought {
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .freq-bought h3 {
@@ -19,9 +19,6 @@
     color: #565959;
     font-size: 2.4rem;
     margin-right: 1rem;
-}
-
-.price-container {
 }
 
 .shipping-info {

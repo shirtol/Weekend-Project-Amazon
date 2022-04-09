@@ -1,9 +1,9 @@
 .main {
-    margin: 0 20rem;
+    /* margin: 0 20rem; */
     margin-top: 1rem;
     padding: 1.8rem;
     padding-top: 1.4rem;
-    min-width: 996px;
+    /* min-width: 996px; */
     justify-content: center;
 }
 
@@ -14,7 +14,7 @@
     line-height: 1.4rem;
     font-weight: 400;
     padding: 0 1.6rem;
-    margin: 0 20rem;
+    /* margin: 0 20rem; */
     margin-top: 0.8rem;
 }
 
@@ -257,11 +257,15 @@ tbody .description {
     padding-bottom: 2.4rem;
 }
 
+.about-list-el {
+    word-wrap: break-word;
+}
+
 .main__buy-item-container {
     border-radius: 0.8rem;
     border: 1px #d5d9d9 solid;
     padding: 1.4rem 1.8rem;
-    height: 74%;
+    /* height: 74%; */
 }
 
 .main__buy-item-container .price-big {

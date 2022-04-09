@@ -150,6 +150,10 @@ label#search-fill {
 
 /* Bottom navbar */
 
+.deliver-mobile-only {
+    display: none;
+}
+
 .navbar__bottom {
     background: #232f3e;
     font-size: 1.4rem;
@@ -210,4 +214,5 @@ label#search-fill {
     text-decoration: none;
     color: rgb(51, 51, 51);
     line-height: 3.3rem;
+    display: block;
 }
