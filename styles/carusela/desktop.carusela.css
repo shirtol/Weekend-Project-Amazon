@@ -1,9 +1,12 @@
 .carousel {
-    margin: 0 27rem;
+    /* margin: 0 27rem; */
     min-width: 996px;
+    align-items: center;
+    justify-content: center;
 }
 
-.carousel h3 {
+.carousel h3,
+.freq-bought h3 {
     margin-left: 2%;
     width: 66%;
     color: #c60;
@@ -17,6 +20,8 @@
     grid-template-columns: 40px repeat(7, 160px) 40px;
     gap: 2rem;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .arrow {

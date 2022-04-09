@@ -1,0 +1,44 @@
+.freq-bought {
+    align-items: center;
+    justify-content: center;
+}
+
+.freq-bought h3 {
+    margin: 0;
+}
+
+.freq-img-container {
+    justify-content: center;
+    align-items: center;
+    margin-right: 2.5rem;
+    padding-left: 1rem;
+    margin-top: 1.2rem;
+}
+
+.plus {
+    color: #565959;
+    font-size: 2.4rem;
+    margin-right: 1rem;
+}
+
+.price-container {
+}
+
+.shipping-info {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.shipping-info p {
+    padding-left: 2rem;
+}
+
+.freq-bought .checkbox {
+    padding-left: 1.2rem;
+    margin-right: 0.2rem;
+}
+
+.freq-bought .checkbox span,
+.freq-bought .checkbox a {
+    padding-left: 0.5rem;
+}

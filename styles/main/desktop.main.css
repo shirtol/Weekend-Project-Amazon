@@ -4,6 +4,7 @@
     padding: 1.8rem;
     padding-top: 1.4rem;
     min-width: 996px;
+    justify-content: center;
 }
 
 /* Breadcrumbs */
