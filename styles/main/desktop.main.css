@@ -1,3 +1,7 @@
+.main-relative {
+    position: relative;
+}
+
 .main {
     /* margin: 0 20rem; */
     margin-top: 1rem;
@@ -477,4 +481,8 @@ label input {
 .btn-orange:hover {
     background: #fa8900;
     border-color: #e3931e;
+}
+
+#search-filter:hover {
+    background-color: #dadada;
 }

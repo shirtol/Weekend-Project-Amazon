@@ -81,8 +81,12 @@
         display: none;
     }
 
-    .main__big-img-container {
+    /* .main__big-img-container {
         height: 70%;
+    } */
+
+    .grid-container {
+        grid-template-rows: 500px repeat(2, auto);
     }
 
     .mobile-only {
@@ -111,8 +115,17 @@
         display: none;
     }
 
-    .main__big-img-container {
+    /* .main__big-img-container {
         height: 40%;
+    } */
+
+    .grid-container {
+        grid-template-rows: 200px repeat(2, auto);
+    }
+
+    .carousel {
+        align-items: center;
+        justify-content: center;
     }
 
     .carousel__grid-container {

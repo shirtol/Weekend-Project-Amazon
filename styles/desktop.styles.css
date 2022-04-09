@@ -16,7 +16,7 @@ body {
 }
 
 .content-container {
-    margin: 0 25rem;
+    margin: 0 20rem;
     /* display: flex; */
     /* flex-direction: column; */
     justify-content: space-around;
@@ -63,5 +63,5 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: fit-content(20px) repeat(2, 1fr) 0.47fr;
+    grid-template-columns: fit-content(20px) repeat(2, 1fr) 0.5fr;
 }
