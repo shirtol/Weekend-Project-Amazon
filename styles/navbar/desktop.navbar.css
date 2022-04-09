@@ -111,6 +111,15 @@ label#search-fill {
     align-self: center;
 }
 
+.language {
+    background: url("../../assets/images/sprite3.png") no-repeat 0 -130px;
+    width: 24px;
+    height: 18px;
+    display: block;
+    align-self: center;
+    margin-right: 2rem;
+}
+
 .sign-in,
 .returns-and-orders,
 .cart {
