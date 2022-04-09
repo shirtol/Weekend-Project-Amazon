@@ -63,11 +63,3 @@ $("#img-preview-6").hover(() => {
 $("#img-preview-7").hover(() => {
     $("#big-img").attr("src", `../assets/images/item${selectedItem}-big7.jpg`);
 });
-
-/* 
-!TODO: change big image when hover on items 
-! change preview when click on items (just 1 and 7 preview images need to change.)
-! 
-*/
-
-// Change preview images when click on item:
