@@ -38,6 +38,12 @@
     width: max-content;
     display: inline-block;
     margin-bottom: 1rem;
+    box-shadow: 0 0 3px 2px transparent;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
 }
 
 .main__big-img-container {
@@ -435,4 +441,19 @@ label input {
 
 .share-container a {
     margin: 0 0.5rem;
+}
+
+/* Hover */
+
+.underline-hover:hover {
+    text-decoration: underline;
+}
+
+.img-container:hover {
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.red-hover:hover {
+    color: #b12704;
 }
