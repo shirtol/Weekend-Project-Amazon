@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #0f1111;
+    /* Navbar */
+    --white-color: #ffffff;
+    --navbar-top-color: #131921;
+    --select-color: #cdcdcd;
+    --bg-orange-color: rgb(254, 189, 105);
+    --cart-load-invert-color: rgb(15, 122, 251);
+    --navbar-bottom-color: #232f3e;
+    --bg-navbar-bottom-sec-color: rgb(250, 250, 250);
+    --border-navbar-bottom-sec-color: rgba(0, 0, 0, 0.1);
+    --navbar-bottom-sec-hover-color: #ff9900;
+    --breadcrumbs-color: #565959;
+    --prices-color: #565959;
+    --image-border-color: #a2a6ac;
+    --clickable-text-color: #007185;
+    --amazon-choice-bg-color: #232f3e;
+    --choice-text-color: #f69931;
+    --hr-border-color: #e7e7e7;
+    --price-red-color: #b12704;
+    --color-category-color: #555;
+    --chosen-item-border-color: #e47911;
+    --not-chosen-item-border-color: #e0e0e0;
+    --buy-item-border-color: #d5d9d9;
+    --in-stock-color: #007600;
+    --quantity-color: #f0f2f2;
+    --btn-yellow-color: #ffd814;
+    --btn-border-yellow-color: #fcd200;
+    --btn-orange-color: #ffa41c;
+    --btn-border-orange-color: #ff8f00;
+    --add-to-list-bg-color: #e7e9ec;
+    --add-to-list-border-color1: #adb1b8;
+    --add-to-list-border-color2: #a2a6ac;
+    --add-to-list-border-color3: #8d9096;
+    --preview-img-border-color-hover: #e77600;
+    --yellow-btn-bg-hover: #f7ca00;
+    --orange-btn-bg-hover: #fa8900;
+    --orange-btn-border-hover: #e3931e;
+    --search-filter-hover-color: #dadada;
+}

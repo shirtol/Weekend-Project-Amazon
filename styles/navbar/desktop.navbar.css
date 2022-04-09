@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar {
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .navbar__top > * {
@@ -10,7 +10,7 @@
 /* Top navbar */
 
 .navbar__top.align-row {
-    background: #131921;
+    background: var(--navbar-top-color);
 }
 
 .navbar__top {
@@ -63,7 +63,7 @@ select {
     /* max-width: 100%; */
     height: 4rem;
     padding-left: 0.5rem;
-    border: 1px solid #cdcdcd;
+    border: 1px solid var(--select-color);
     border-radius: 0.4rem 0 0 0.4rem;
 }
 
@@ -95,7 +95,7 @@ label#search-fill {
 }
 
 .bg-orange {
-    background: rgb(254, 189, 105);
+    background: var(--bg-orange-color);
     width: 4rem;
     height: 4rem;
     display: flex;
@@ -144,10 +144,8 @@ label#search-fill {
 
 .cart-load {
     position: absolute;
-    color: rgb(
-        15,
-        122,
-        251
+    color: var(
+        --cart-load-invert-color
     ); /*Chose the inverted color (because we invert the div for the cart icon color.*/
     font-size: 1.6rem;
     left: 1.8rem;
@@ -159,15 +157,12 @@ label#search-fill {
 
 .mobile-only {
     display: none;
-    background-color: #131921;
+    background-color: var(--navbar-top-color);
 }
 
-.deliver-txt {
-    color: #ffffff;
-}
-
+.deliver-txt,
 .white-txt {
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .search-bar__search-left select {
@@ -181,7 +176,7 @@ label#search-fill {
 }
 
 .navbar__bottom {
-    background: #232f3e;
+    background: var(--navbar-bottom-color);
     font-size: 1.4rem;
     font-weight: 400;
     padding-left: 1.3rem;
@@ -201,7 +196,7 @@ label#search-fill {
 
 .navbar-bottom-el a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .hamburger-sprite {
@@ -224,8 +219,8 @@ label#search-fill {
 .navbar__bottom-secondary {
     font-size: 1.2rem;
     font-weight: 400;
-    background: rgb(250, 250, 250);
-    border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+    background: var(--bg-navbar-bottom-sec-color);
+    border-bottom: var(--border-navbar-bottom-sec-color) solid 1px;
     padding-left: 1.5rem;
     padding-right: 0.9rem;
 }
@@ -250,7 +245,7 @@ label#search-fill {
 }
 
 .display-border-hover:hover {
-    border-color: #fff;
+    border-color: var(--white-color);
 }
 
 .orange-hover a {
@@ -258,6 +253,6 @@ label#search-fill {
 }
 
 .orange-hover a:hover {
-    color: #ff9900;
-    border-color: #ff9900;
+    color: var(--navbar-bottom-sec-hover-color);
+    border-color: var(--navbar-bottom-sec-hover-color);
 }

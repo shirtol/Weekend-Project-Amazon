@@ -13,7 +13,7 @@
 
 /* Breadcrumbs */
 .breadcrumbs-container {
-    color: #565959;
+    color: var(--breadcrumbs-color);
     font-size: 1.2rem;
     line-height: 1.4rem;
     font-weight: 400;
@@ -29,7 +29,7 @@
 
 .breadcrumbs-item a {
     text-decoration: none;
-    color: #565959;
+    color: var(--breadcrumbs-color);
 }
 
 .main__preview-imgs {
@@ -37,7 +37,7 @@
 }
 
 .img-container {
-    border: #a2a6ac 1px solid;
+    border: var(--image-border-color) 1px solid;
     border-radius: 2px;
     width: max-content;
     display: inline-block;
@@ -73,12 +73,12 @@
     font-size: 2.4rem;
     line-height: 3.2rem;
     font-weight: 400;
-    color: #0f1111;
+    color: var(--primary-color);
 }
 
 .brand a {
     text-decoration: none;
-    color: #007185;
+    color: var(--clickable-text-color);
     font-size: 1.4rem;
     line-height: 2rem;
 }
@@ -96,15 +96,15 @@
 }
 
 .num-users-rate a {
-    color: #007185;
+    color: var(--clickable-text-color);
     text-decoration: none;
 }
 
 .choice {
-    color: #fff;
+    color: var(--white-color);
     height: 2.2rem;
-    background-color: #232f3e;
-    border-color: #232f3e;
+    background-color: var(--amazon-choice-bg-color);
+    border-color: var(--amazon-choice-bg-color);
     min-width: 8rem;
     line-height: 2.2rem;
     font-size: 1.2rem;
@@ -116,7 +116,7 @@
 }
 
 .orange-txt {
-    color: #f69931;
+    color: var(--choice-text-color);
     margin-right: 0.8rem;
 }
 
@@ -129,7 +129,7 @@
 }
 
 .product-section a {
-    color: #007185;
+    color: var(--clickable-text-color);
     font-size: 1.2rem;
     text-decoration: none;
 }
@@ -137,7 +137,7 @@
 hr {
     display: block;
     height: 1px;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid var(--hr-border-color);
     border-left: none;
     line-height: 1.9rem;
     margin-bottom: 1.4rem;
@@ -148,14 +148,14 @@ hr {
     padding: 0 0.3rem;
     padding-left: 0;
     text-align: right;
-    color: #565959;
+    color: var(--prices-color);
     font-size: 1.4rem;
     line-height: 2rem;
     width: 6rem;
 }
 
 .past-price {
-    color: #565959;
+    color: var(--prices-color);
     font-size: 1.4rem;
     line-height: 2rem;
     position: relative;
@@ -171,31 +171,31 @@ hr {
 }
 
 .price-big {
-    color: #b12704;
+    color: var(--price-red-color);
     font-size: 1.8rem;
     line-height: 2.4rem;
 }
 
 .price-small {
-    color: #b12704;
+    color: var(--price-red-color);
     font-size: 1.4rem;
     line-height: 2rem;
 }
 
 .tax-and-import {
-    color: #565959;
+    color: var(--prices-color);
     font-size: 1.4rem;
     line-height: 2rem;
 }
 
 .details a {
-    color: #007185;
+    color: var(--clickable-text-color);
     text-decoration: none;
 }
 
 .color {
     display: inline;
-    color: #555;
+    color: var(--color-category-color);
     font-weight: 400;
     padding-left: 0.2rem;
     padding-bottom: 0.2rem;
@@ -205,7 +205,7 @@ hr {
     min-width: 13.8rem;
     min-height: 4.6rem;
     max-width: 18rem;
-    border: #e47911 1px solid;
+    border: var(--chosen-item-border-color) 1px solid;
     border-radius: 0.2rem;
     margin: 0.4rem 0;
     margin-left: 0.6rem;
@@ -216,7 +216,7 @@ hr {
 }
 
 .item-chooser2__container {
-    border-color: #e0e0e0;
+    border-color: var(--not-chosen-item-border-color);
 }
 
 .item-box img {
@@ -228,7 +228,7 @@ hr {
     font-size: 1.2rem;
     line-height: 1.6rem;
     margin-bottom: 1.4rem;
-    color: #b12704;
+    color: var(--price-red-color);
     font-weight: 700;
     margin-bottom: 0;
     text-align: left;
@@ -238,7 +238,7 @@ hr {
 
 .price-2 {
     display: inline-block;
-    color: #565959;
+    color: var(--prices-color);
     text-align: center;
     font-weight: 400;
 }
@@ -273,7 +273,7 @@ tbody .description {
 
 .main__buy-item-container {
     border-radius: 0.8rem;
-    border: 1px #d5d9d9 solid;
+    border: 1px var(--buy-item-border-color) solid;
     padding: 1.4rem 1.8rem;
     /* height: 74%; */
 }
@@ -283,21 +283,21 @@ tbody .description {
 }
 
 .tax-and-import {
-    color: #565959;
+    color: var(--prices-color);
 }
 
 .more-details a {
-    color: #007185;
+    color: var(--clickable-text-color);
     text-decoration: none;
 }
 
 .delivery-info {
     margin: 1.2rem 0;
-    color: #0f1111;
+    color: var(--primary-color);
 }
 
 .green-txt {
-    color: #007600;
+    color: var(--in-stock-color);
 }
 
 .is-deliver-main img {
@@ -313,7 +313,7 @@ tbody .description {
 
 .deliver-txt a {
     text-decoration: none;
-    color: #007185;
+    color: var(--clickable-text-color);
     font-size: 1.2rem;
     line-height: 1.5;
 }
@@ -338,7 +338,7 @@ tbody .description {
     padding: 0 0.6rem 0 0.7rem;
     text-align: left;
     box-shadow: 0 2px 5px rgb(15 17 17/ 15%);
-    background: #f0f2f2;
+    background: var(--quantity-color);
     border-radius: 7px;
     height: 2rem;
     margin-bottom: 1.2rem;
@@ -354,7 +354,7 @@ tbody .description {
     border-width: 1px;
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
     margin-bottom: 0.8rem;
-    color: #0f1111;
+    color: var(--primary-color);
 
     /* height: 100%;
     width: 100%; */
@@ -366,17 +366,17 @@ a {
 }
 
 .btn-yellow {
-    background: #ffd814;
-    border-color: #fcd200;
+    background: var(--btn-yellow-color);
+    border-color: var(--btn-border-yellow-color);
 }
 
 .btn-orange {
-    background: #ffa41c;
-    border-color: #ff8f00;
+    background: var(--btn-orange-color);
+    border-color: var(--btn-border-orange-color);
 }
 
 .blue-color {
-    color: #007185;
+    color: var(--clickable-text-color);
 }
 
 .lock {
@@ -398,7 +398,7 @@ a {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     font-size: 1.2rem;
-    color: #565959;
+    color: var(--prices-color);
 }
 
 .header {
@@ -427,15 +427,16 @@ label input {
 
 .add-to-list {
     border-radius: 3px;
-    background: #e7e9ec;
+    background: var(--add-to-list-bg-color);
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
     border: 1px solid;
-    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-color: var(--add-to-list-border-color1)
+        var(--add-to-list-border-color2) var(--add-to-list-border-color3);
     padding: 0 1rem 0 1.1rem;
 }
 
 .add-to-list-link {
-    color: #0f1111;
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 1.3rem;
     line-height: 2.9rem;
@@ -464,25 +465,25 @@ label input {
 }
 
 .img-container:hover {
-    border-color: #e77600;
+    border-color: var(--preview-img-border-color-hover);
     box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
 }
 
 .red-hover:hover {
-    color: #b12704;
+    color: var(--price-red-color);
 }
 
 .btn-yellow:hover {
-    background: #f7ca00;
-    border-color: #f2c200;
+    background: var(--yellow-btn-bg-hover);
+    border-color: var(--btn-border-yellow-color);
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 }
 
 .btn-orange:hover {
-    background: #fa8900;
-    border-color: #e3931e;
+    background: var(--orange-btn-bg-hover);
+    border-color: var(--orange-btn-border-hover);
 }
 
 #search-filter:hover {
-    background-color: #dadada;
+    background-color: var(--search-filter-hover-color);
 }

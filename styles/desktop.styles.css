@@ -12,7 +12,7 @@ html {
 body {
     font-size: 1.4rem;
     line-height: 2rem;
-    color: #0f1111;
+    color: var(--primary-color);
 }
 
 .content-container {
