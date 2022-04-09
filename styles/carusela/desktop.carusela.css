@@ -2,7 +2,7 @@
 .freq-bought h3 {
     /* margin-left: 2%; */
     width: 66%;
-    color: #c60;
+    color: var(--freq-bought-carousel-headers);
     font-size: 16px;
     margin-bottom: 4px;
     height: 60px;
@@ -22,7 +22,7 @@
     border-radius: 7px;
     padding: 6px;
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
-    border: 1px solid #d5d9d9;
+    border: 1px solid var(--arrow-border-color);
     height: auto;
     text-align: center;
     width: 40px;

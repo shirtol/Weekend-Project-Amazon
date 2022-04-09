@@ -1,6 +1,5 @@
 :root {
     --primary-color: #0f1111;
-    /* Navbar */
     --white-color: #ffffff;
     --navbar-top-color: #131921;
     --select-color: #cdcdcd;
@@ -12,6 +11,7 @@
     --navbar-bottom-sec-hover-color: #ff9900;
     --breadcrumbs-color: #565959;
     --prices-color: #565959;
+    --plus-sign: #565959;
     --image-border-color: #a2a6ac;
     --clickable-text-color: #007185;
     --amazon-choice-bg-color: #232f3e;
@@ -22,6 +22,7 @@
     --chosen-item-border-color: #e47911;
     --not-chosen-item-border-color: #e0e0e0;
     --buy-item-border-color: #d5d9d9;
+    --arrow-border-color: #d5d9d9;
     --in-stock-color: #007600;
     --quantity-color: #f0f2f2;
     --btn-yellow-color: #ffd814;
@@ -37,4 +38,5 @@
     --orange-btn-bg-hover: #fa8900;
     --orange-btn-border-hover: #e3931e;
     --search-filter-hover-color: #dadada;
+    --freq-bought-carousel-headers: #c60;
 }
