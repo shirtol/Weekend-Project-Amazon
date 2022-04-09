@@ -20,7 +20,8 @@
     .breadcrumbs-container,
     .navbar__bottom-secondary,
     .desktop-only,
-    .main__preview-imgs {
+    .main__preview-imgs,
+    .language {
         display: none;
     }
 
