@@ -148,6 +148,11 @@ label#search-fill {
     font-weight: 700;
 }
 
+.mobile-only {
+    display: none;
+    background-color: #131921;
+}
+
 /* Bottom navbar */
 
 .deliver-mobile-only {
