@@ -375,6 +375,16 @@ a {
     color: #007185;
 }
 
+.lock {
+    height: 15px;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.secure a {
+    align-self: center;
+}
+
 .secure {
     margin-bottom: 0.8rem;
 }
@@ -456,4 +466,15 @@ label input {
 
 .red-hover:hover {
     color: #b12704;
+}
+
+.btn-yellow:hover {
+    background: #f7ca00;
+    border-color: #f2c200;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+.btn-orange:hover {
+    background: #fa8900;
+    border-color: #e3931e;
 }
